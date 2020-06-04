@@ -148,6 +148,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			document.querySelector('body').append(panel);
 	
 			const discoParty = function() {
+				document.body.style.backgroundImage = 'none';
 				let i = 0;
 				let getNum = function() {
 					return Math.floor(Math.random() * 256);
