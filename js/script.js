@@ -164,7 +164,7 @@ window.addEventListener('DOMContentLoaded', () => {
 				disco.removeEventListener('click', discoParty);
 				disco.addEventListener('click', function() {
 					clearTimeout(timer);
-					document.body.style.backgroundColor = "#ffffff";
+					document.body.style.background = `url(/img/123.png)`;
 					disco.addEventListener('click', discoParty);
 					
 				});
