@@ -54,12 +54,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			const body = document.querySelector('body');
 			document.body.style.backgroundImage = 'none';
 			body.style.backgroundColor = e.target.value;
-			if (body.style.backgroundColor = `rgb(255, 255, 255`) {
-				document.body.style.background = `url(/img/123.png)`;
-			} else {
-			    body.style.backgroundColor = e.target.value;
-			    }
-			
 		}
 	
 		injectStyle() {
